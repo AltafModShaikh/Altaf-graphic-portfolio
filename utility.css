@@ -1,0 +1,148 @@
+.color_pink {
+    color: #D7A2FE;
+}
+
+.color_purple {
+    color: #9999ff;
+}
+
+.color_red {
+    color: #FF8585;
+}
+
+.color_green {
+    color: #C4FFA9;
+}
+
+.color_blue {
+    color: #6CB6D6;
+}
+.color_darkblue {
+    color: #171e7b;
+}
+.color_shop{
+  color: rgb(59, 145, 237);
+}
+.color_orange{
+  color: orange;
+}
+.gradient_blue{
+  background: -webkit-linear-gradient(rgba(0,212,255,1), rgba(124,39,224,1) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient_orange{
+  background: -webkit-linear-gradient(rgb(255, 111, 0), rgba(124,39,224,1) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+.font0{
+    font-size: 1rem;
+}
+.text{
+  text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.center{
+    justify-content: center;
+}
+.itemcenter{
+    align-items: center;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+.rotate{
+  animation: autoRotateAnimation;
+  animation-timeline: view();
+}
+@keyframes autoRotateAnimation{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(360deg);
+  }
+}
+
+
+.trans{
+  animation: smarttrans;
+  animation-timeline: view(50% 1%);
+}
+@keyframes smarttrans{
+  0%{
+     opacity: 0%;
+     transform: translateY(200px) scale(0.3);
+  }
+  50%{
+     opacity: 100%;
+     transform: translateY(0) size(1);
+  }
+}
+
+
+
+
+
+
+
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
