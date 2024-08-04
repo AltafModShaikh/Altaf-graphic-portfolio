@@ -310,6 +310,12 @@ table {
   position: absolute;
   left: 70px;
 }
+@media only screen and (max-width:800px) {
+  .man{
+    display: none;
+  }
+  
+}
 
 .experience {
   position: relative;
@@ -389,6 +395,10 @@ table {
   overflow: auto;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+.videos iframe{
+width: 440px;
+height: 280px;
 }
 .cards {
   width: 440px;
